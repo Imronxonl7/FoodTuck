@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.textStyle{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.react-tabs__tab {
+  color: white !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+  border: none !important;
+  
+}
+.react-tabs__tab--selected {
+  color: #FF9F0D !important;
+}
+.react-tabs__tab-list{
+  border: none !important;
+}
+.react-tabs__tab:focus:after{
+  display: none;
+}
